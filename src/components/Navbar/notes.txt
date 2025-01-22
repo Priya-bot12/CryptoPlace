@@ -1,0 +1,17 @@
+1. setup reactProject 
+->The command "npm create vite@latest" is used to create a new project using Vite, a fast and modern frontend build tool. This command initiates a Vite project setup with the latest version available. 
+->"npm install" to install other dependencies
+-> " npm install react-router-dom" create routing on React
+->"npm install react-google-charts" to display chart on the website
+->"npm run dev" to run the project will provde you the link
+->To clear the current project interface 
+1. delete src->app.css
+2. clear index.css
+3. clear app.jsx file and to add boiler plate code type rafce(es7 extension)
+4. edit the index.html accordingly
+
+
+-> In .jsx file we wrap everything in the component if not than <> </> empty tags
+->CoinGecko API : CG-cATvn4erjJXZwsUmEoPidsWt
+
+-> To make the figures comman seperated use the JavaScript Function .toLocaleString()
