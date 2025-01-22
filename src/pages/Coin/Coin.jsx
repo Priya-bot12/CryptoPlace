@@ -106,6 +106,11 @@ const Coin = () => {
           </li>
         </ul>
       </div>
+
+      {/* Fix reference to coin.id */}
+      <div className="coin-links">
+        <a href={`/CryptoPlace/coin/${coinData?.id}`}>View More</a>
+      </div>
     </div>
   );
 };
