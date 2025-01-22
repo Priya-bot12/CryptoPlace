@@ -8,8 +8,8 @@ import CoinContextProvider, { CoinContext } from './context/CoinContext.jsx'
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <CoinContextProvider basename="/CryptoPlace">
+    <BrowserRouter basename="/CryptoPlace">
+      <CoinContextProvider>
         <App />
       </CoinContextProvider>
     </BrowserRouter>
